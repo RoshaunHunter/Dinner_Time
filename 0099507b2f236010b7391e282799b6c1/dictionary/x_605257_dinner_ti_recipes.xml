@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Recipes" max_length="40" name="x_605257_dinner_ti_recipes" sizeclass="0" type="collection">
+        <element label="Tennessee Meatloaf" max_length="1000" name="tennessee_meatloaf" type="string"/>
+    </element>
+</database>

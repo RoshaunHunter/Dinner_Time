@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Menu" max_length="40" name="x_605257_dinner_ti_menu" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Menu" max_length="40" name="menu" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Baked Mac N Cheese" value="baked_mac_n_cheese"/>
+                <element inactive_on_update="false" label="Chicken Marsala" value="chicken_marsala"/>
+                <element inactive_on_update="false" label="Oyakodon Japanese Chicken and Egg Rice Bowl" value="oyakodon_japanese_chicken_and_egg_rice_bowl"/>
+                <element inactive_on_update="false" label="Tennessee Meatloaf" value="tennessee_meatloaf"/>
+                <element inactive_on_update="false" label="Vermicelli Noodle Bowl" value="vermicelli_noodle_bowl"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rating" max_length="40" name="rating" type="string"/>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+    </element>
+</database>
